@@ -13,8 +13,7 @@ The primary goal of this project is to streamline the process of selecting MuleS
 - **Enhancing User Experience**: Offering a conversational interface for seamless interaction.
 - **Leveraging Advanced AI Techniques**: Utilizing RAG architecture to improve the relevance and accuracy of responses.
 
-## Architecture
-![Capture d'écran 2025-01-02 005719](https://github.com/user-attachments/assets/ce8c8456-b6df-436a-a448-7f1ade50e507)
+## System Architecture
 
 The chatbot's architecture comprises the following components:
 
@@ -28,13 +27,15 @@ The chatbot's architecture comprises the following components:
 
 4. **User Query Processing Flow**:
    - `/template`: Processes user requests by passing them to a Large Language Model (LLM) along with contextual data from the knowledge store to generate accurate responses.
+  
+![Capture d'écran 2025-01-02 010728](https://github.com/user-attachments/assets/255ba6ff-ce07-4481-8645-91b0c971d524)
 
 5. **Front-End Interface**:
- 
-![frontend](https://github.com/user-attachments/assets/ddbead55-cab3-4819-89ee-d1487209a033)
 
    - A responsive web interface created with HTML, CSS, and JavaScript to allow users to interact with the chatbot.
    - The interface communicates with the MuleSoft API via HTTP requests, sending user queries and displaying responses in real time.
+  
+   ![frontend](https://github.com/user-attachments/assets/ddbead55-cab3-4819-89ee-d1487209a033)
 
 ## Work Environment
 
