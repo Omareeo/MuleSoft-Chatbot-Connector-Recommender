@@ -23,12 +23,19 @@ The chatbot's architecture comprises the following components:
 
 3. **Data Vectorization Flows**:
    - `/store`: Creates the local knowledge store.
+
+![Capture d'écran 2025-01-02 014228](https://github.com/user-attachments/assets/6f6b893d-d2c5-4d38-bc3c-1b4e115c26e7)
+
    - `/addDocs`: Adds vectorized data about all connectors from Anypoint Exchange into the knowledge store.
+
+![Capture d'écran 2025-01-02 014233](https://github.com/user-attachments/assets/08e3522c-f339-4c89-a6a4-5f1731381c24)
+
 
 4. **User Query Processing Flow**:
    - `/template`: Processes user requests by passing them to a Large Language Model (LLM) along with contextual data from the knowledge store to generate accurate responses.
   
-![Capture d'écran 2025-01-02 010728](https://github.com/user-attachments/assets/255ba6ff-ce07-4481-8645-91b0c971d524)
+![Capture d'écran 2025-01-02 014239](https://github.com/user-attachments/assets/aeee8e0b-b621-47ce-bf95-7254738abe63)
+
 
 5. **Front-End Interface**:
 
