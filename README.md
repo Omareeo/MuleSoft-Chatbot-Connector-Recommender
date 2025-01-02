@@ -67,7 +67,7 @@ Follow these steps to set up and run the chatbot:
      ```bash
      git clone https://github.com/yourusername/MuleSoft-Chatbot-Connector-Recommender.git
      ```
-   - import the project `.jar` file into MuleSoft Anypoint Studio.
+   - import the project `project1.jar` file into MuleSoft Anypoint Studio.
    - Ensure the MuleSoft AI Chain Connector is added to your project.
 
 3. **Configuration**:
