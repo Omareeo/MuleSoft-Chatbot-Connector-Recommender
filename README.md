@@ -72,7 +72,7 @@ Follow these steps to set up and run the chatbot:
 
 3. **Configuration**:
    - Set up the local knowledge store by running the `/store` flow.
-   - Add connector documentation data by executing the `/addDocs` flow.
+   - Add connector documentation data  (`data` folder)  by executing the `/addDocs` flow.
 
 4. **Front-End Setup**:
    - Navigate to the `frontend` folder in the project directory.
