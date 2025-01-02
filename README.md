@@ -1,6 +1,10 @@
+
+https://github.com/user-attachments/assets/f865a74e-8678-4fc5-9d14-a09bd3e42632
 # MuleSoft Connector Recommendation Chatbot - Need2Connect
 
 This project is a MuleSoft-based chatbot designed to assist users in identifying the most suitable connectors for their MuleSoft integration flows. By leveraging the **MuleSoft AI Chain Connector** and implementing a **Retrieval-Augmented Generation (RAG)** architecture, the chatbot provides accurate and context-aware recommendations.
+
+![vid](https://github.com/user-attachments/assets/a8e4ed7a-335a-45a6-abfd-d56a21204d0c)
 
 ## Overview
 
